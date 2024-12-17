@@ -17,3 +17,16 @@
 # 3. Prints out number “x”, raised to the power “y”. 
 # 4. Prints out the log (base 2) of “x”. 
 
+import math # Importing the math module for mathematical operations
+
+x = int(input("Enter the value of x: ")) #Asking the user to enter the value of 'x'
+y = int(input("Enter the value of y: ")) #Asking the user to enter the value of 'y'
+result = x ** y #getting the result “x”, raised to the power “y”.
+print(f"The result of {x} ** {y} is {result}")
+
+# Calculate and print the log base 2 of "x"
+if x > 0:
+    log_base = math.log2(x)
+    print(f"The log base 2 of {x} is {log_base}")
+else:
+    print("Logarithm is undefined for non-positive values.")
