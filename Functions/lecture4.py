@@ -29,7 +29,7 @@ x = 1221
 result=(isPalindrome(x))
 print(f"The number '{x}' is a palindrome: {result}")
 
-# adding arrays
+# adding arrays  from codewars
 def sum_array(a):
     if not a:
         return 0
@@ -37,3 +37,18 @@ def sum_array(a):
 a = [1,3,5,7]
 result = sum_array(a)
 print(f"The sum of '{a}' is '{result}'")
+
+
+# codewars quiz
+def rental_car_cost(d):
+    daily_rate = 40
+    total = d * daily_rate
+    if d >=7:
+        return total - 50
+    elif d>=3:
+        return total - 20
+    return total
+    
+d = int(input("input the number of days: "))
+result = rental_car_cost(d)
+print(f"The total amount for {d} days of rental fee is {result}")
