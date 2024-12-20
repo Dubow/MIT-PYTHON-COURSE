@@ -24,3 +24,15 @@ print("What does that spell?")
 for i in range(times):
     print(word, "!!!")
 
+
+# guess and check
+
+cube = 8  # You can test with other values too
+for guess in range(abs(cube) + 1):  # abs = absolute value
+    if guess ** 3 == abs(cube):  # Found the cube root
+        if cube < 0:  # Adjust for negative cubes
+            guess = -guess
+        print('Cube root of ' + str(cube) + ' is ' + str(guess))
+        break
+else:  # This is executed if the loop completes without `break`
+    print(cube, "is not a perfect cube")
