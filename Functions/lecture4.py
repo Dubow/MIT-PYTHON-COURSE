@@ -52,3 +52,17 @@ def rental_car_cost(d):
 d = int(input("input the number of days: "))
 result = rental_car_cost(d)
 print(f"The total amount for {d} days of rental fee is {result}")
+
+
+# leetcode quiz
+# Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+def twoSum(nums: int, target: int):
+    for i in range(len(nums)):
+        for j in range(i+1, len(nums)):
+            if nums[i] + nums[j] == target:
+                return i,j
+    return []
+nums,target = [1,2,3,4,5,6,9], 9
+result = twoSum(nums,target)
+print(f"The indices for the targrt number is '{result}'")
