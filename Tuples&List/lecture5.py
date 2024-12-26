@@ -43,3 +43,14 @@ a = ['A','B','C']
 print(''.join(a)) #joins the whole list prints out ABC
 print('_'.join(a))#joins the whole list while adding '_'in between each  A_B_C
 
+#sorting and reversing
+b = [9,3,0,2,5]
+print(sorted(b))
+
+#clonning list in python
+cool = ["blue", "Green","White"]
+chill = cool[:] #[:]clones all the elements in cool list
+cool.append("black")
+print(cool)
+print(chill)
+
