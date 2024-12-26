@@ -34,3 +34,12 @@ L2 = [6,7,8,9,10]
 L2.pop() # removes the last number
 L3 = L1 + L2
 print(L3) # prints out the combined lists
+
+# converting list to strings and viceversa
+s = "I < CS" # s is a string
+print(list(s)) # prints out ['I', ' ', '<', ' ', 'C', 'S']
+print(s.split('<')) #removes '<' from the list
+a = ['A','B','C']
+print(''.join(a)) #joins the whole list prints out ABC
+print('_'.join(a))#joins the whole list while adding '_'in between each  A_B_C
+
