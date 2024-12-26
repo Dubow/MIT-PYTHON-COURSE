@@ -12,3 +12,10 @@ def quotient_and_remainder(x,y):
 (x,y) = (4,3)
 result = quotient_and_remainder(x,y)
 print(result)
+
+# List = they are mutable(can be changed/altered)
+# they are created using brackets[]
+a_list = []#empty list
+L = [2, 4, 5, "sad", "happy", 37]
+L[4] = 32
+print(len(L), L[4], L) #prints out the length of L and the index 2 element
