@@ -25,3 +25,12 @@ total = 0
 for i in range(len(x)):
     total += x[i]
 print(total) # prints out the sum of list x
+
+# combining list
+L1 = [1,2,3,4,5]
+L1.extend([-1,0]) # add -1 and 0 to L1
+L1.remove(2) #removes 2 from list L1
+L2 = [6,7,8,9,10]
+L2.pop() # removes the last number
+L3 = L1 + L2
+print(L3) # prints out the combined lists
