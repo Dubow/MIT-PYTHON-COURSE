@@ -18,9 +18,10 @@ print(result)
 a_list = []#empty list
 L = [2, 4, 5, "sad", "happy", 37]
 L[5] = 32
+L.append(55) # add 55 to the list L
 print(len(L), L[4], L) #prints out the length of L and the index 2 element
 x = [2,35,67,45,67]
 total = 0
 for i in range(len(x)):
     total += x[i]
-print(total)
+print(total) # prints out the sum of list x
