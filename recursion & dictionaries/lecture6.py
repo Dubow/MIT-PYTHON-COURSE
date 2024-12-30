@@ -32,3 +32,15 @@ def fact(n):
     else:
         return n*fact(n-1)
 print(fact(4))
+
+# fibonnaci using recursive
+def feb(n):
+    if n == 0:
+        return 0   #base case
+    elif n == 1:
+        return 1   #base case
+    else:
+        return feb(n-1)+feb(n-2)
+n = int(input("Please enter your preffered number: "))
+result = feb(n)
+print(f"The fibonnaci result for {n} is {result}")
