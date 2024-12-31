@@ -38,7 +38,6 @@ a = [1,3,5,7]
 result = sum_array(a)
 print(f"The sum of '{a}' is '{result}'")
 
-
 # codewars quiz
 def rental_car_cost(d):
     daily_rate = 40
