@@ -45,3 +45,8 @@ n = int(input("Please enter your preffered number: "))
 result = feb(n)
 print(f"The fibonnaci result for {n} is {result}")
 
+# Dictionaries
+# dictionary is created using curly braces{}
+my_dict = {} #empty dictionary
+grades = {'Anna':'B','John':'A','Denise':'A+','Abdi':'A'}
+print(grades['Anna']) #prints out B
