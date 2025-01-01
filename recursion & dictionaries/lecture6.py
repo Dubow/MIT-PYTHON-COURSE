@@ -53,3 +53,5 @@ print(grades['Anna']) #prints out B
 # adding an entry into the dictionary
 grades['Kate'] = 'A'
 print('Mathews' in grades) #Tests if mathews is in the dictionary
+# deleting entries
+del(grades['Anna'])
