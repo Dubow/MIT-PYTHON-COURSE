@@ -47,7 +47,7 @@ print(f"The fibonnaci result for {n} is {result}")
 
 # Dictionaries
 # dictionary is created using curly braces{}
-my_dict = {} #empty dictionary
+#my_dict = {} #empty dictionary
 grades = {'Anna':'B','John':'A','Denise':'A+','Abdi':'A'}
 print(grades['Anna']) #prints out B
 # adding an entry into the dictionary
@@ -57,3 +57,15 @@ print('Mathews' in grades) #Tests if mathews is in the dictionary
 del(grades['Anna'])
 print(grades.keys()) #printout all dict_keys
 print(grades.values()) #prints out all values
+
+she_loves_you = ['she','loves','you','yeah','she','loves','you','yeah','yeah']
+
+def lyrics_to_frequence(lyrics):
+    myDict = {}
+    for word in lyrics:
+        if word in myDict:
+            myDict[word] += 1
+        else:
+            myDict[word] = 1
+    return myDict
+print(lyrics_to_frequence(she_loves_you))
