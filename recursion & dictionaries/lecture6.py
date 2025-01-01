@@ -50,3 +50,6 @@ print(f"The fibonnaci result for {n} is {result}")
 my_dict = {} #empty dictionary
 grades = {'Anna':'B','John':'A','Denise':'A+','Abdi':'A'}
 print(grades['Anna']) #prints out B
+# adding an entry into the dictionary
+grades['Kate'] = 'A'
+print('Mathews' in grades) #Tests if mathews is in the dictionary
