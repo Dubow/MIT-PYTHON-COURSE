@@ -55,3 +55,5 @@ grades['Kate'] = 'A'
 print('Mathews' in grades) #Tests if mathews is in the dictionary
 # deleting entries
 del(grades['Anna'])
+print(grades.keys()) #printout all dict_keys
+print(grades.values()) #prints out all values
