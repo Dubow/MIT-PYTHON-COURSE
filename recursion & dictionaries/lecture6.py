@@ -60,6 +60,7 @@ print(grades.values()) #prints out all values
 
 she_loves_you = ['she','loves','you','yeah','she','loves','you','yeah','yeah']
 
+
 def lyrics_to_frequence(lyrics):
     myDict = {}
     for word in lyrics:
